@@ -10,10 +10,10 @@ class EventHandler extends Component {
         }
    }
 
-   clickHandler= ()=>{
+   clickHandler= (child)=>{
       this.setState({ 
 
-        name:'Good Bye'
+        name:`Good Bye ${child}`
       })
    }
     render() { 

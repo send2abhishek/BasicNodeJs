@@ -6,7 +6,7 @@ function Demo(props){
 
         <div>
                 <p>Hi From Child {props.name}</p>
-                <button onClick={props.click}>Child Btn</button>
+                <button onClick={()=>props.click("From Child Component")}>Child Btn</button>
         </div>
     )
 
