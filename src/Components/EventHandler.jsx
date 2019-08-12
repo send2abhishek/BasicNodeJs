@@ -11,7 +11,7 @@ class EventHandler extends Component {
    }
 
    clickHandler= ()=>{
-      this.setState({
+      this.setState({ 
 
         name:'Good Bye'
       })
